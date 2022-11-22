@@ -1,0 +1,126 @@
+  @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+  box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+      background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .harsh {
+      width: 60%;
+    }
+
+    @media (max-width:768px) {
+      .harsh {
+        width: 90%;
+      }
+    }
+
+    .harsh h1 {
+      color: rgb(204, 27, 107);
+      font-size: 50px;
+      padding: 10px 0;
+      text-align: center;
+      border-radius: 30px 30px 0px 0px;
+      background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+      opacity: 0.8;
+      font-family: cursive;
+    }
+
+    .harsh form {
+      display: flex;
+      width: 100%;
+      background-color:#33df19;
+    }
+
+    .harsh form input {
+      
+      border: none;
+      background-color: #c2c59c;
+      font-size: 18px;
+      color: rgb(5, 0, 0);
+      padding: 10px;
+      width: 90%;
+    }
+    .harsh form input:hover{
+      background-color: #07b5efe2;
+    }
+
+    .harsh form button {
+      border: none;
+      color: rgb(20, 2, 2);
+      background-color: #08f6c6;
+      font-size: 25px;
+      font-weight: 600;
+      height: 42px;
+      width: 10%;
+    }
+    .harsh form button:hover{
+      background-color: #53caf1e2;
+    }
+
+    .harsh ul {
+      list-style: none;
+      color: #000000;
+      padding: 0;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .harsh ul li {
+      padding: 10px;
+      background-color: #47eef7;
+      border-bottom: 1px solid #3a4674;
+    }
+
+    .check {
+      width: 0.9em;
+      height: 0.8em;
+      cursor: pointer;
+      border-radius: 50%;
+      background-color: rgb(255, 255, 255);
+      border: 1px solid rgb(255, 255, 255);
+      
+    }
+
+    .check:checked {
+      background-color: #1dd2af;
+    }
+
+    .task {
+      font-size: 18px;
+      padding: 0 10px;
+      width: fit-content;
+      background: transparent;
+      border: none;
+      color: rgb(9, 28, 9);
+    }
+
+    .task:focus {
+      outline: none;
+    }
+
+    .harsh ul li i {
+      float: right;
+      cursor: pointer;
+    }
+
+    .harsh ul li i:hover {
+      color: #c0e41d;
+    }
+
+    .completed {
+      
+      color: rgba(0, 0, 0, 0.8);
+      text-decoration: line-through;
+      font-size:20px;
+    }
